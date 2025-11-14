@@ -5,37 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BOAT - RPG en Pixel Art</title>
   <link rel="stylesheet" href="styles.css">
-  <!-- Fuente retro tipo pixel -->
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Encabezado -->
   <header>
-    <div class="logo">BOAT</div>
+    <div class="logo">
+  <img src="LogoMainTrans.png" alt="Logo de BOAT">
+</div>
     <nav>
       <ul>
         <li><a href="#inicio">Inicio</a></li>
         <li><a href="#beneficios">Beneficios</a></li>
-        <li><a href="#registro">Registro</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#descarga">Descarga</a></li>
         <li><a href="#contacto">Contacto</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Sección principal -->
   <section id="inicio" class="hero">
     <div class="hero-text">
       <h1>Embárcate en una Aventura Pixelada</h1>
       <p>Recorre los principales cuerpos de agua de Mexico, recolecta toda su basura y vuelve a un Mexico más limpio!
 	 todo en un mundo de un RPG estilo retro.</p>
-      <a href="#registro" class="btn">▶ JUGAR</a>
+      <a href="#descarga" class="btn">▶ JUGAR</a>
     </div>
     <div class="hero-img">
       <img src="Barco1.png" alt="Imagen RPG Pixel Art">
     </div>
   </section>
 
-  <!-- Sección de beneficios -->
   <section id="beneficios" class="benefits">
     <h2>¿Por qué jugar BOAT?</h2>
     <div class="benefit-list">
@@ -54,19 +53,30 @@
     </div>
   </section>
 
-  <!-- Formulario de registro -->
-  <section id="registro" class="register">
-    <h2>Se parte de la aventura</h2>
-    <form>
-      <input type="text" placeholder="Nombre completo" required>
-      <input type="email" placeholder="Correo electrónico" required>
-      <button type="submit">Registrarse</button>
-    </form>
+  <section id="galeria" class="gallery">
+    <h2>Capturas del Juego</h2>
+    <div class="gallery-list">
+      <div class="gallery-item">
+        <img src="CapturaMainMenu.png" alt="Menú principal del juego BOAT">
+        <h3>Menú Principal</h3>
+      </div>
+      <div class="gallery-item">
+        <img src="CapturaGame.png" alt="Gameplay de BOAT en el agua">
+        <h3>En el Juego</h3>
+      </div>
+    </div>
   </section>
 
-  <!-- Pie de página -->
+  <section id="descarga" class="download">
+    <h2>Descarga</h2>
+    <div class="benefit"> 
+      <h3>Descarga el juego haciendo click en el boton de abajo </h3>
+      <a href="https://github.com/Mxim0-prog/BOAT-GAME/releases/download/v1.0.0/Boat.apk" class="download-button" download>Descarga ahora</a>
+    </div>
+  </section>
+
   <footer id="contacto">
-    <p>📧 contacto@pixelquest.com</p>
+    <p>📧 contacto@EsteCorreoNoExiste.com</p>
     <p>© 2025 BOAT. Todos los derechos reservados.</p>
   </footer>
 </body>
